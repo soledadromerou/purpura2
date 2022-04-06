@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>formulario</title>
+</head>
+<body>
+    <!-- aca comienza mi header -->
+    <header>
+        <img class="portada" src="../media/portada.jpg" alt="portada">
+    </header> 
+<!-- aca comienza mi nav bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./html/Catalogo.html">Catalogo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./html/Sobre nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./html/Preguntas Frecuentes.html">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./html/Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <form action="">
+        <fieldset>
+            <input type="text" name="nombre" id="" placeholder="tu nombre">
+            <br><br>
+            <div>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email" id="" placeholder="tu email">
+            </div>
+            <div>
+                <textarea name="dejanos tu consulta" id="dejanos tu consulta" placeholder="tu mensaje" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <br><br>
+                <label for="newsettler">queres recibir nuestras novedades?</label>
+                <input type="checkbox" name="aceptar" id="newslatter" value="1">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="enviar">
+                <input type="reset" value="borrar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
