@@ -139,8 +139,10 @@ li button {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    margin: 10px;
 }
 
 .item1 {
@@ -165,4 +167,13 @@ li button {
 
 .item6 {
     grid-area: 6;
+}
+
+.medidab {
+    width: 300px;
+    transition: 2s;
+}
+
+.medidab:hover {
+    width: 400px;
 }
