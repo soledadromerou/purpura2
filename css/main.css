@@ -95,8 +95,8 @@ li button {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:"aquelarre granito arnes"
                         "marmol  morganita bordado";
-    justify-items: center;
-    align-items: center;
+    justify-items: stretch;
+    align-items: stretch;
     gap: 10px;
 }
 
