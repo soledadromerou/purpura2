@@ -96,7 +96,7 @@ li button {
     grid-template-areas:"aquelarre granito arnes"
                         "marmol  morganita bordado";
     justify-items: stretch;
-    align-items: stretch;
+    align-items: center;
     gap: 10px;
 }
 
@@ -139,8 +139,7 @@ li button {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 10px;
     margin: 10px;
 }
@@ -163,18 +162,30 @@ li button {
 
 .medidab {
     width: 300px;
+    padding: 10px;
     transition: 2s;
 }
 
 .medidab:hover {
-    width: 400px;
+    width: 350px;
 }
 
 .medidac {
     width: 300px;
+    padding: 10px;
     transition: 2s;
 }
 
 .medidac:hover {
-    width: 400px;
+    width: 350px;
+}
+
+.escorpioa {
+    width: 300px;
+    padding: 10px;
+}
+
+.escorpiob {
+    width: 300px;
+    padding: 10px;
 }
