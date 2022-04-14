@@ -138,34 +138,32 @@ li button {
 /* grilla de index */
 
 .grid-container {
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:"area1 area2 area3";
     padding: 10px;
     margin: 10px;
-    align-content: center;
+
     height: auto;
 }
 
 .item1 {
-    grid-area: 1;
+    grid-area: area1;
 }
 
 .item2 {
-    grid-area: 2;
+    grid-area: area2;
 }
 
 .item3 {
-    grid-area: 3;
+    grid-area: area3;
 }
 
-.item4 {
-    grid-area: 3;
-}
 
 .medidab {
     width: 300px;
-    padding: 10px;
     transition: 2s;
+    align-items: center;
 }
 
 .medidab:hover {
@@ -174,8 +172,8 @@ li button {
 
 .medidac {
     width: 300px;
-    padding: 10px;
     transition: 2s;
+    align-items: center;
 }
 
 .medidac:hover {
@@ -190,6 +188,10 @@ li button {
 .escorpiob {
     width: 300px;
     padding: 10px;
+}
+
+.prueba {
+    width: 300px;
 }
 
 /* media queries */
