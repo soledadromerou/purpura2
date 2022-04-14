@@ -59,28 +59,6 @@ li button {
     justify-content: space-between;
 }
 
-/* inicio imagenes que estan en "sobre mi" */
-.marhy {
-    width: 300px;
-}
-
-.mariana {
-    width: 242px;
-}
-
-.mari {
-    width: 300px;
-}
-
-.dona {
-    width: 450px;
-}
-
-/* fin imagenes que estan en "sobre mi" */
-
-/* aca empieza mi navbar */
-
-/* aca termina mi navbar */
 
 /* header */
 .portada {
@@ -143,7 +121,7 @@ li button {
     grid-template-areas:"area1 area2 area3";
     padding: 10px;
     margin: 10px;
-
+    align-content: center;
     height: auto;
 }
 
@@ -190,25 +168,6 @@ li button {
     padding: 10px;
 }
 
-.prueba {
-    width: 300px;
+.footer {
+    align-content: center;
 }
-
-/* media queries */
-
-@media (min-width: 576px) { 
-    .nav
-    .body {
-        align-items: ;
-    }
-}
-
-@media (min-width: 768px) { 
-    text-align: left;
-}
-
-@media (min-width: 992px) { 
-    text-align: :placeholder-shown;
-}
-
-@media (min-width: 1200px) { ... }
