@@ -1,170 +1,117 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+h1 h2 h3 {
+  color: purple; }
 
-h1 {
-    color: blueviolet;
-}
+* {
+  margin: 0;
+  padding: 0; }
 
 main div {
-    background-color: lavender;
-}
-
-h2 {
-    color: blueviolet;
-}
-
-h3 {
-    color: blueviolet;
-    text-align: center;
-}
-
-h4 {
-    color: blueviolet;
-}
+  background-color: lavender; }
 
 body {
-    background-color: lightpink;
-}
-
-li a {
-    color: #ca68ba;
-    text-decoration: none;
-}
-
-li button {
-    border-radius: 6px;
-    border: 1px;
-    border-style: solid;
-}
-
+  background-color: lightpink; }
 
 .fondoimg {
-    background-image: url(../media/portada2.jpg);
-    background-position: center;
-    background-size: contain;
-    height: 225px;
-}
+  background-image: url(../media/portada2.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 225px; }
 
 /* pag paso a paso */
 .cuidados {
-    padding: 70px;
-    background-color: lavender;
-    text-align: left;
-}
+  padding: 70px;
+  background-color: lavender;
+  text-align: left; }
 
 .descripcion {
-    display: inline-block;
-    justify-content: space-between;
-}
-
+  display: inline-block;
+  justify-content: space-between; }
 
 /* header */
 .portada {
-    width: 100%;
-    height: 200px;
-}
+  width: 100%;
+  height: 200px; }
 
 /* aqui comienza mi grilla */
-
 .grilla {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:"aquelarre granito arnes"
-                        "marmol  morganita bordado";
-    justify-items: stretch;
-    align-items: center;
-    gap: 10px;
-}
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "aquelarre granito arnes" "marmol  morganita bordado";
+  justify-items: stretch;
+  align-items: center;
+  gap: 10px; }
 
 .bordado {
-    width: 230px;
-    height: 320px;
-    grid-area: bordado;
-}
+  width: 230px;
+  height: 320px;
+  grid-area: bordado; }
 
 .arnes {
-    width: 230px;
-    height: 320;
-    grid-area: arnes;
-}
+  width: 230px;
+  height: 320;
+  grid-area: arnes; }
 
 .morganita {
-    width: 230px;
-    height: 320px;
-    grid-area: morganita;
-}
+  width: 230px;
+  height: 320px;
+  grid-area: morganita; }
 
 .marmol {
-    width: 245px;
-    height: 320px;
-    grid-area: marmol;
-}
+  width: 245px;
+  height: 320px;
+  grid-area: marmol; }
 
 .granito {
-    width: 230px;
-    height: 320px;
-    grid-area: granito;
-}
+  width: 230px;
+  height: 320px;
+  grid-area: granito; }
 
 .aquelarre {
-    width: 245px;
-    grid-area: aquelarre;
-}
+  width: 245px;
+  grid-area: aquelarre; }
 
 /* grilla de index */
-
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:"area1 area2 area3";
-    padding: 10px;
-    margin: 10px;
-    align-content: center;
-    height: auto;
-}
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "area1 area2 area3";
+  padding: 10px;
+  margin: 10px;
+  align-content: center;
+  height: auto; }
 
 .item1 {
-    grid-area: area1;
-}
+  grid-area: area1; }
 
 .item2 {
-    grid-area: area2;
-}
+  grid-area: area2; }
 
 .item3 {
-    grid-area: area3;
-}
-
+  grid-area: area3; }
 
 .medidab {
-    width: 300px;
-    transition: 2s;
-    align-items: center;
-}
+  width: 300px;
+  transition: 2s;
+  align-items: center; }
 
 .medidab:hover {
-    width: 350px;
-}
+  width: 350px; }
 
 .medidac {
-    width: 300px;
-    transition: 2s;
-    align-items: center;
-}
+  width: 300px;
+  transition: 2s;
+  align-items: center; }
 
 .medidac:hover {
-    width: 350px;
-}
+  width: 350px; }
 
 .escorpioa {
-    width: 300px;
-    padding: 10px;
-}
+  width: 300px;
+  padding: 10px; }
 
 .escorpiob {
-    width: 300px;
-    padding: 10px;
-}
+  width: 300px;
+  padding: 10px; }
 
+.bi {
+  font-size: 20px; }
