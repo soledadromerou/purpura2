@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss C:/Users/Usuario/Desktop/purpura2/scss/main.scss C:/Users/Usuario/Desktop/purpura2/css/main.css",
@@ -22,5 +21,8 @@
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }

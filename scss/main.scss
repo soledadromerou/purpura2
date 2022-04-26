@@ -1,7 +1,14 @@
-$color-titulos: purple;
 
-h1 h2 h3 {
-    color: $color-titulos;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import "variables";
+
+
+h3 {
+    @include estilotitulo
+}
+
+div {
+    color: lightpink;
 }
 
 * {
@@ -9,25 +16,13 @@ h1 h2 h3 {
     padding: 0;
 }
 
-main div {
-    background-color: lavender;
-}
 body {
-    background-color: lightpink;
-}
-
-
-.fondoimg {
-    background-image: url(../media/portada2.jpg);
-    background-position: center;
-    background-size: contain;
-    height: 225px;
+    color: $color-de-fondo;
 }
 
 /* pag paso a paso */
 .cuidados {
-    padding: 70px;
-    background-color: lavender;
+    padding: 70px;;
     text-align: left;
 }
 
@@ -90,50 +85,24 @@ body {
     grid-area: aquelarre;
 }
 
-/* grilla de index */
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:"area1 area2 area3";
-    padding: 10px;
-    margin: 10px;
-    align-content: center;
-    height: auto;
-}
-
-.item1 {
-    grid-area: area1;
-}
-
-.item2 {
-    grid-area: area2;
-}
-
-.item3 {
-    grid-area: area3;
-}
-
-
 .medidab {
     width: 300px;
     transition: 2s;
     align-items: center;
-}
-
-.medidab:hover {
-    width: 350px;
+        &:hover{
+            width:350px;
+        }
 }
 
 .medidac {
     width: 300px;
     transition: 2s;
     align-items: center;
+        &:hover{
+        width: 350px;
+    }
 }
 
-.medidac:hover {
-    width: 350px;
-}
 
 .escorpioa {
     width: 300px;
