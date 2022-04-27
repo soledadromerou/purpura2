@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 * {
+
   margin: 0;
   padding: 0; }
 
 body {
-  color: lightpink; }
+  background-color: lightpink;
+}
 
+.container {
+  align-content: stretch;
+}
 /* pag paso a paso */
 .cuidados {
   padding: 70px;
@@ -20,43 +25,7 @@ body {
   width: 100%;
   height: 200px; }
 
-/* aqui comienza mi grilla */
-.grilla {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "aquelarre granito arnes" "marmol  morganita bordado";
-  justify-items: stretch;
-  align-items: center;
-  gap: 10px; }
 
-.bordado {
-  width: 230px;
-  height: 320px;
-  grid-area: bordado; }
-
-.arnes {
-  width: 230px;
-  height: 320;
-  grid-area: arnes; }
-
-.morganita {
-  width: 230px;
-  height: 320px;
-  grid-area: morganita; }
-
-.marmol {
-  width: 245px;
-  height: 320px;
-  grid-area: marmol; }
-
-.granito {
-  width: 230px;
-  height: 320px;
-  grid-area: granito; }
-
-.aquelarre {
-  width: 245px;
-  grid-area: aquelarre; }
 
 .medidab {
   width: 300px;

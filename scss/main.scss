@@ -1,28 +1,50 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import "variables";
-
-
-h3 {
-    @include estilotitulo
-}
-
-div {
-    color: lightpink;
-}
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import ("C:/Users/Usuario/Desktop/purpura2/scss/_variables.scss")
 * {
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: $color-de-fondo;
+    font-size: $tamanio-de-fuente;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+h3 {
+    color: blueviolet;
+    text-align: center;
+}
+
+h4 {
+    color: blueviolet;
+}
 
 body {
-    color: $color-de-fondo;
+    background-color: lightpink;
+}
+
+li a {
+    color: #ca68ba;
+    text-decoration: none;
+}
+
+li button {
+    border-radius: 6px;
+    border: 1px;
+    border-style: solid;
 }
 
 /* pag paso a paso */
 .cuidados {
-    padding: 70px;;
+    padding: 70px;
+    background-color: lavender;
     text-align: left;
 }
 
@@ -85,24 +107,50 @@ body {
     grid-area: aquelarre;
 }
 
+/* grilla de index */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:"area1 area2 area3";
+    padding: 10px;
+    margin: 10px;
+    align-content: center;
+    height: auto;
+}
+
+.item1 {
+    grid-area: area1;
+}
+
+.item2 {
+    grid-area: area2;
+}
+
+.item3 {
+    grid-area: area3;
+}
+
+
 .medidab {
     width: 300px;
     transition: 2s;
     align-items: center;
-        &:hover{
-            width:350px;
-        }
+}
+
+.medidab:hover {
+    width: 350px;
 }
 
 .medidac {
     width: 300px;
     transition: 2s;
     align-items: center;
-        &:hover{
-        width: 350px;
-    }
 }
 
+.medidac:hover {
+    width: 350px;
+}
 
 .escorpioa {
     width: 300px;
