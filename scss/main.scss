@@ -1,12 +1,43 @@
+@mixin titulo  ($myColor,$myFontSize) {
+
+    text-align: center;
+    font-family: sans-serif;
+    font-size: $myFontSize;
+    color: $myColor;
+    }
+
 * {
     margin: 0;
     padding: 0;
 }
 
+h1 {
+    @include titulo(18px,MediumOrchid)
+}
+
+h2 {
+    @include titulo(18px,MediumOrchid)
+}
+
+h3 {
+    @include titulo (18px,MediumOrchid)
+}
+
+h4 {
+    @include titulo (18px,MediumOrchid)
+}
+
+h5 {
+    @include titulo (18px,MediumOrchid)
+}
+
+body {
+    background-color: lightpink;
+}
+
 li a {
     color: #ca68ba;
     text-decoration: none;
-
     li button {
         border-radius: 6px;
         border: 1px;
@@ -19,16 +50,11 @@ li a {
     background-color: lavender;
     text-align: right;
     display: inline-block;
+    text-decoration-color: MediumOrchid;
     .lavado {
         width: 300px;
     }
 }
-
-.descripcion {
-    display: inline-block;
-    justify-content: space-between;
-}
-
 
 /* header */
 .portada {
@@ -40,20 +66,18 @@ li a {
     width: 300px;
     transition: 2s;
     align-items: center;
-}
-
-.medidab:hover {
-    width: 350px;
+    &:hover{
+        width: 350px;
+    }
 }
 
 .medidac {
     width: 300px;
     transition: 2s;
     align-items: center;
-}
-
-.medidac:hover {
-    width: 350px;
+    &:hover{
+        width: 350px;
+    }
 }
 
 .escorpioa {
